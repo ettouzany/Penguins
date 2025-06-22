@@ -6,7 +6,12 @@ public class child : MonoBehaviour
 {
     public Player player;
     public GameObject tofollow;
-    void Update()
+
+    public void Update()
+    {
+        Follow();
+    }
+    public void Follow()
     {
         if (tofollow == null)
         {
